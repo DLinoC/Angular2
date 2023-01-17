@@ -1,1 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+    height: 100%;
+}
+body{
+    background-image: url(https://rare-gallery.com/uploads/posts/342053-Kadita-Atlantean-Princess-Skin-Mobile-Legends-Bang-Bang-ML-MLBB-Video-Game.jpg);
+    background-attachment: fixed;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.39)), url(https://rare-gallery.com/uploads/posts/342053-Kadita-Atlantean-Princess-Skin-Mobile-Legends-Bang-Bang-ML-MLBB-Video-Game.jpg);
+}
