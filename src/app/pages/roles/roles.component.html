@@ -1,3 +1,16 @@
 <div class="container mx-auto mt-4 p-3 border border-info text-center text-light">
-    <p>Los roles son variados:</p>
+    <p>Los roles son los siguientes:  </p>
+    <ul>
+        <li>Apoyo</li>
+        <li>Mago</li>
+        <li>Asesino</li>
+        <li>Tirador</li>
+        <li>Combatiente</li>
+    </ul>
+    <div class="input-group mb-3">
+        <span class="input-group-text">Rol</span>
+        <input type="text" class="form-control" placeholder="Rol" #id>
+    </div>
+    <button type="button" (click)="buscarHero(id.value)" class="btn btn-info">Buscar</button>
+    <p class="text-light my-3">Nombre: {{nombre?.name}}</p>
 </div>

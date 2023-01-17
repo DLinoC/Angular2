@@ -7,41 +7,49 @@ export class MobileLegendsService {
   heroes = [
     {
       name:'Hayabusa',
-      id:'1',
-      line:'jungla',
-      rol:'asesino',
+      id:1,
+      line:'Jungla',
+      rol:'Asesino',
+      img:"https://rare-gallery.com/uploads/posts/305409-Hayabusa-Shadow-of-Obscurity-Skin-Mobile-Legends-4K.jpg",
     },
     {
-      name:'Kadita',
-      id:'2',
-      line:'linea de medio',
-      rol:'mago',
+      name:'Pharsa',
+      id:2,
+      line:'Linea de Medio',
+      rol:'Mago',
+      img:"https://rare-gallery.com/thumbs/342011-Pharsa-Empress-Phoenix-Skin-Mobile-Legends-Bang-Bang-ML-MLBB-Video-Game.jpg",
     },
     {
-      name:'Lapu Lapu',
-      id:'3',
-      line:'linea de experiencia',
-      rol:'combatiente'
+      name:'Mobile',
+      id:3,
+      line:'Linea de Experiencia',
+      rol:'Combatiente',
+      img:"https://rare-gallery.com/thumbs/956296-Mobile-Legends-Martis-Capricorn-anime-video-games.jpg",
     },
     {
-      name:'Karrie',
-      id:'4',
-      line:'linea de oro',
-      rol:'tirador',
+      name:'Claude',
+      id:4,
+      line:'Linea de Oro',
+      rol:'Tirador',
+      img:"https://rare-gallery.com/thumbs/341990-Claude-Mecha-Dragon-Skin-Mobile-Legends-Bang-Bang-ML-MLBB-Video-Game.jpg",
     },
     {
-      name:'Kaja',
-      id:'5',
-      line:'linea de oro',
-      rol:'Support',
+      name:'Akai',
+      id:5,
+      line:'Linea de Oro',
+      rol:'Apoyo',
+      img:"https://rare-gallery.com/thumbs/343477-Akai-Magistrate-Skin-Mobile-Legends-Bang-Bang-ML-MLBB-Video-Game.jpg",
     },
   ]
   mostrarHeroes() {
     return this.heroes;
   }
-  agregarHeroes(obj:any){
-    this.heroes.push(obj)
+  mostrarporRol(roles:string){
+    return this.heroes.find( heroe => heroe.rol === roles)
   }
+  // agregarHeroes(obj:any){
+  //   this.heroes.push(obj)
+  // }
   constructor() { 
 
   }
